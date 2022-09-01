@@ -1,0 +1,21 @@
+0-5 mins
+===============================
+1. head tag is the parent for this DOM structure
+
+2. h1 tag is a child of head tag and  have a attribute called 'Title'
+
+3. body tag is another child of head tag and it has 2 input tag children
+
+4. The first input tag has type and name attributes
+
+5. The second input tag has type and value attributes
+
+
+17-23 mins
+================================
+
+1. innertext follows styling
+
+2. textcontent doesn't follow styling
+
+
