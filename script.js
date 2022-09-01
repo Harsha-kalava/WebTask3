@@ -1,13 +1,9 @@
 const header = document.getElementById("main-header");
 const headerTitle = document.getElementById("header-title");
 const addItems = document.getElementsByClassName("title");
-let listItems = document.getElementsByClassName("list-group-item");
-let taglistItems = document.getElementsByTagName("li");
+let secondItem = document.querySelector(".list-group-item:nth-child(2)");
+let thirdItem = document.querySelector(".list-group-item:nth-child(3)");
 
-for (i = 0; i < listItems.length; i++) {
-	listItems[i].style.fontWeight = "bold";
-}
-
-for (i = 0; i < taglistItems.length; i++) {
-	taglistItems[i].style.backgroundColor = "#f4f4f4";
-}
+secondItem.style.backgroundColor = "green";
+// thirdItem.style.visibility = "hidden";
+thirdItem.style.display = "none";
