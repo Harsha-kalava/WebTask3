@@ -1,10 +1,10 @@
 const header = document.getElementById("main-header");
 const headerTitle = document.getElementById("header-title");
 const addItems = document.getElementsByClassName("title");
+let listItems = document.getElementsByClassName("list-group-item");
 
-header.style.borderBottom = "solid 3px #000";
-console.log(addItems);
+listItems[2].style.backgroundColor = "green";
 
-// addItems[0].innerHTML = "<h1>Add Items</h3>";
-addItems[0].style.color = "green";
-addItems[0].style.fontWeight = "bold";
+for (i = 0; i < listItems.length; i++) {
+	listItems[i].style.fontWeight = "bold";
+}
